@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/3d-projects/static/css/main.9ec2d620.chunk.css",
+    "main.js": "/3d-projects/static/js/main.7651f458.chunk.js",
+    "main.js.map": "/3d-projects/static/js/main.7651f458.chunk.js.map",
+    "runtime-main.js": "/3d-projects/static/js/runtime-main.fd267244.js",
+    "runtime-main.js.map": "/3d-projects/static/js/runtime-main.fd267244.js.map",
+    "static/js/2.6b2dd7d6.chunk.js": "/3d-projects/static/js/2.6b2dd7d6.chunk.js",
+    "static/js/2.6b2dd7d6.chunk.js.map": "/3d-projects/static/js/2.6b2dd7d6.chunk.js.map",
+    "static/js/3.55157e0a.chunk.js": "/3d-projects/static/js/3.55157e0a.chunk.js",
+    "static/js/3.55157e0a.chunk.js.map": "/3d-projects/static/js/3.55157e0a.chunk.js.map",
+    "index.html": "/3d-projects/index.html",
+    "static/css/main.9ec2d620.chunk.css.map": "/3d-projects/static/css/main.9ec2d620.chunk.css.map",
+    "static/js/2.6b2dd7d6.chunk.js.LICENSE.txt": "/3d-projects/static/js/2.6b2dd7d6.chunk.js.LICENSE.txt",
+    "static/media/back.svg": "/3d-projects/static/media/back.b1f4edb2.svg",
+    "static/media/base.svg": "/3d-projects/static/media/base.4ee01d7b.svg",
+    "static/media/chair.f909e231.glb": "/3d-projects/static/media/chair.f909e231.glb",
+    "static/media/cushions.svg": "/3d-projects/static/media/cushions.5dcad69f.svg",
+    "static/media/legs.svg": "/3d-projects/static/media/legs.6995e2b3.svg",
+    "static/media/supports.svg": "/3d-projects/static/media/supports.403fafb0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd267244.js",
+    "static/js/2.6b2dd7d6.chunk.js",
+    "static/css/main.9ec2d620.chunk.css",
+    "static/js/main.7651f458.chunk.js"
+  ]
+}
