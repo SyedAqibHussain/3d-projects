@@ -83,6 +83,10 @@
 	flex: 1;
 }
 
+.form-input-container {
+	display: flex;
+}
+
 .modal-form-div .color-selector,
 .modal-form-div button,
 .modal-form-div h4 {

@@ -27,13 +27,11 @@ const ColorSelector = ({
 
 		<div className='color-picker add-icon-div' onClick={handleOpenModal}>
 			<img src={addIcon} alt='add-icon' />
-			{/* <p>+</p> */}
 		</div>
 		<Modal isOpen={isModalOpen} ariaHideApp={false}>
-			<div className='modal-header-div'></div>
 			<form className='modal-form-div' onSubmit={(e) => handleAddColor(e)}>
 				<div className='form-header-div'>
-					<div>
+					<div className='form-input-container'>
 						<label>Click to select color:</label>
 						<input
 							type='color'
