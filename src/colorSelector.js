@@ -39,6 +39,18 @@ const ColorSelector = ({
 							type='color'
 							value={addColor}
 							onChange={(e) => setAddColor(e.target.value)}
+							className='color-selector'
+						/>
+						<input
+							type='text'
+							placeholder='Hex color without #'
+							value={addColor}
+							onChange={(e) =>
+								e.target.value.includes('#')
+									? setAddColor(e.target.value)
+									: setAddColor('#' + e.target.value)
+							}
+							className='color-input-text'
 						/>
 					</div>
 					<h4 onClick={handleCloseModal}>X</h4>

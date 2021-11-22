@@ -62,9 +62,9 @@
 .ReactModal__Content {
 	display: flex;
 	flex-direction: column;
-	height: min-content;
 	inset: auto !important;
 	width: 50vw;
+	height: 25vh;
 	top: 50% !important;
 	left: 50% !important;
 	transform: translate(-50%, -50%);
@@ -78,14 +78,30 @@
 
 .form-header-div {
 	display: flex;
-	align-items: center;
+	padding-top: 2.5vh;
 	justify-content: space-between;
+	flex: 1;
 }
 
-.modal-form-div input,
+.modal-form-div .color-selector,
 .modal-form-div button,
 .modal-form-div h4 {
 	cursor: pointer;
+}
+
+.modal-form-div h4 {
+	margin: 0px;
+}
+
+.form-header-div input {
+	height: 32px;
+}
+
+.color-input-text {
+	margin-left: 0.5rem;
+	border: 1px solid black;
+	border-radius: 4px;
+	padding-left: 0.5rem;
 }
 
 .form-header-div label {
@@ -93,7 +109,7 @@
 }
 
 .form-submit-button {
-	align-self: flex-end;
+	align-self: center;
 	width: 150px;
 	height: 36px;
 	border: 0;
